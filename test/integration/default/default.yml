@@ -1,9 +1,4 @@
 ---
-
 - hosts: all
-#- hosts: test-kitchen
-#  vars:
-#    - a:
   roles:
     - apt-cacher-ng-client
-
